@@ -1,0 +1,44 @@
+.stopwatch-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    padding-bottom: 75px;
+}
+
+.stopwatch{
+    height: 35vh;
+    width: 55vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 25px;
+    background-color: rgb(128, 128, 128);
+}
+
+.display{
+    margin: 5%;
+    padding: 5%;
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(145, 145, 145);
+    background-color: rgb(231, 227, 227);
+    border: 3px solid;
+    border-radius: 25px 25px 0 0;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.74);
+}
+.controls button{
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    min-width: 130px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .start-stopwatch{
+    background-color: green;
+} */
